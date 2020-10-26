@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShopTrade</title>
+
+    <!-- Custom CSS-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar-->
+    <nav class="navbar">
+      <div class="navbar-center">
+        <span class="nav-icon">
+          <img src="./images/download.png" alt="store logo" class="logo" />
+        </span>
+
+        <div class="cart-btn">
+          <span class="nav-icon">
+            <i class="fas fa-cart-plus"></i>
+          </span>
+          <div class="cart-items">0</div>
+        </div>
+      </div>
+    </nav>
+
+    <div id="container">
+      <nav class="filter">
+        <ul class="filter-row">
+          <li>
+            <a href="#">Brands</a>
+            <!-- First Tier Drop Down -->
+            <ul>
+              <li><a href="#" class="filter-brand all">ALL</a></li>
+              <li><a href="#" class="filter-brand roadster">Roadster</a></li>
+              <li><a href="#" class="filter-brand us">U.S Polo Assn.</a></li>
+              <li><a href="#" class="filter-brand gap">Gap</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Size</a>
+            <!-- First Tier Drop Down -->
+            <ul>
+              <li><a href="#" class="filter-size xs">XS</a></li>
+              <li><a href="#" class="filter-size s">S</a></li>
+              <li><a href="#" class="filter-size m">M</a></li>
+              <li><a href="#" class="filter-size l">L</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!-- hero -->
+
+    <!-- end of hero -->
+
+    <!-- products-->
+    <section class="products">
+      <div class="section-title">
+        <h2>our products</h2>
+      </div>
+      <div class="products-center"></div>
+    </section>
+
+    <!-- cart -->
+    <div class="cart-overlay">
+      <div class="cart">
+        <span class="close-cart">
+          <i class="fas fa-window-close"></i>
+        </span>
+        <h2>your cart</h2>
+        <div class="cart-content">
+          <!-- cart-item -->
+
+          <!-- end of cart-item -->
+        </div>
+        <div class="cart-footer">
+          <h3>your total : $<span class="cart-total">0</span></h3>
+          <button class="clear-cart banner-btn">clear cart</button>
+        </div>
+      </div>
+    </div>
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/7ed2d3f23d.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>
